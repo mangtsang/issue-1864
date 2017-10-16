@@ -26,7 +26,7 @@ $ java -jar target/demo.jar
 To test large upload:
 ---------------------
 
-Command Line technique:
+**Command Line technique:**
 
 In a new console window, upload a large file, the more MB's the better.
 
@@ -63,3 +63,8 @@ $ curl --verbose --data-binary "@20mb.dat" http://localhost:8090/upload
 </html>
 * Closing connection 0
 ```
+
+**Browser technique:**
+
+In a new browser window, open [http://localhost:8090/](http://localhost:8090/), 
+select a file to upload (make it big), and hit "Upload" button.
